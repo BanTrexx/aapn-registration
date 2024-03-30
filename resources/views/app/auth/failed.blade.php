@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('styles')
-<link rel="stylesheet" href="{{ asset('dist/css/auth/success.css') }}">
+<link rel="stylesheet" href="{{ asset('dist/css/auth/failed.css') }}">
 @endpush
 
 @section('container')
@@ -12,10 +12,10 @@
 </div>
 <div class="row text-center justify-content-center">
     <div class="alertbox">
-        <h5 id="msg">Congratulations!</h5>
-        <img class="pngv" src="{{ asset('dist/img/v.png') }}" alt="">
-        <h6 id="msg-1">Sukses!</h6>
-        <p id="msg-2">Selamat datang di AAPN 2024<br>Registration</p>
+        <h5 id="msg">Warning!</h5>
+        <img class="pngv" src="{{ asset('dist/img/x.png') }}" alt="">
+        <h6 id="msg-1">Gagal</h6>
+        <p id="msg-2">Ada masalah pada unggahan anda</p>
         <button class="next">Next</button>
     </div>
 </div>
