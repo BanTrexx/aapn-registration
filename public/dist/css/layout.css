@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(../img/backdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    bottom: 0;
+    color: white;
+}
+
+.footer-text {
+    font-size: 25px;
+}
+
+.helpdesk {
+    margin-top: 15px;
+}
+
+.helpdesk-img {
+    max-width: 30px; 
+    margin-right: 5px;
+}
+
+#helpdesk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helpdesk-btn {
+    background-color: gray; 
+    max-width: 130px;
+    border-radius: 20px;
+    box-shadow: 2px 2px darkgrey;
+}
+
+.helpdesk-btn:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+@media (max-width: 767.98px) { 
+    .logo {
+        max-width: 100px;
+    }
+
+    .footer {   
+        max-height: 120px;
+    }
+
+    .footer-text {
+        font-size: 15px;
+    }
+
+    .helpdesk {
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+
+    #helpdesk {
+        display: block;
+        padding: 5px;
+    }
+
+    .helpdesk-img {
+        margin-top: 2px;
+        margin-left: 4px;
+        max-width: 25px;
+    }
+}
+
