@@ -1,0 +1,56 @@
+.header-img {
+    max-width: 500px;
+}
+
+.rsvp {
+    max-width: 500px;
+    background-color: rgba(0,0,0,.7);
+    height: 170px;
+    border: 2px solid navy;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.rsvp h5 {
+    color: wheat;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.rsvp p {
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.rsvp .form-check {
+    color: white;
+}
+
+.next {
+    max-width: 120px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color:  #5f2e00;
+    color: white;
+    border: 2px solid wheat;
+    margin-top: 30px;
+}
+
+.next:hover {
+    background-color: #3b1d00;
+    border: 1px solid wheat;
+    font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+    .header-img {
+        max-width: 300px;
+    }
+    
+    .rsvp {
+        max-width: 300px;
+        height: 190px;
+    }
+}

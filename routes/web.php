@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('app.auth.failed');
+    return view('app.rsvp');
 });
