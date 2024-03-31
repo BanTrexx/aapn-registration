@@ -65,8 +65,8 @@
                 </select>
             </div>
             <div class="button">
-                <button type="button" class="btn btn-secondary">Preview</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn">Preview</button>
+                <button type="submit" class="btn">Submit</button>
             </div>
         </form>
     </div>

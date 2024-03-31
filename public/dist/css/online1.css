@@ -33,6 +33,7 @@
     background-color: #3b1d00;
     border: 1px solid wheat;
     font-weight: 500;
+    color: white;
 }
 
 @media (max-width: 767.98px) {
