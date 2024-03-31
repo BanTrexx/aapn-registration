@@ -1,7 +1,7 @@
 .validation-form {
     max-width: 1200px;
     padding: 50px;
-    height: 650px;
+    height: 700px;
     border: 2px solid navy;
     border-radius: 20px;
     margin-top: 30px;
@@ -39,7 +39,7 @@
     .validation-form {
         max-width: 400px;
     }
-
+    
     .validation-form h5 {
         font-size: 25px;
     }
