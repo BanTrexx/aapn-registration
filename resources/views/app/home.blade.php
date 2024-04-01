@@ -16,10 +16,11 @@
             <h5>Welcome To Registration</h5>
         </div>
         <div class="row">
-            <form action="">
+            <form action="/" method="POST">
+                @csrf
                 <div style="margin-top: 5px;" class="row justify-content-center">
                     <div class="row justify-content-center" id="inner-border">
-                        <input type="text" class="form-control w-75" placeholder="Agent Code">
+                        <input type="text" class="form-control w-75" placeholder="Agent Code" name="agent_code" id="agent_code" autofocus required>
                         <label for="floatingInput" style="color: black;">Agent Code</label>
                         <button type="submit" class="submit">Apply Code</button>
                     </div>

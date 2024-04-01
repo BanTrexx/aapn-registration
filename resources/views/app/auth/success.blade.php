@@ -15,8 +15,14 @@
         <h5 id="msg">Congratulations!</h5>
         <img class="pngv" src="{{ asset('dist/img/v.png') }}" alt="">
         <h6 id="msg-1">Sukses!</h6>
-        <p id="msg-2">Selamat datang di AAPN 2024<br>Registration</p>
-        <button class="next">Next</button>
+        @if ($user->role == 0)
+            <p id="msg-2">Selamat datang <strong>Admin</strong> di AAPN 2024<br>Registration</p>
+        @else
+            <p id="msg-2">Selamat datang di AAPN 2024<br>Registration</p>
+        @endif
+        <a href="/registration/{{ $user->agent_code }}">
+            <button class="next">Next</button>
+        </a>
     </div>
 </div>
 @endsection

@@ -16,7 +16,7 @@
         <img class="pngv" src="{{ asset('dist/img/x.png') }}" alt="">
         <h6 id="msg-1">Gagal</h6>
         <p id="msg-2">Ada masalah pada unggahan anda</p>
-        <button class="next">Next</button>
+        <button class="next" onclick="window.location = '{{ url('/') }}'">Back</button>
     </div>
 </div>
 @endsection

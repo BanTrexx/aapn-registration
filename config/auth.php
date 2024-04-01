@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'aapn' => [
+            'driver' => 'session',
+            'provider' => 'aapn_users',
+        ],
     ],
 
     /*
@@ -63,6 +67,10 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => env('AUTH_MODEL', App\Models\User::class),
+        ],
+        'aapn_users' => [
+            'driver' => 'eloquent',
+            'model' => env('AUTH_MODEL', App\Models\aapnUsers::class),
         ],
 
         // 'users' => [
